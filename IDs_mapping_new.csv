@@ -1,0 +1,68 @@
+admission_type_id,description,Cluster
+1,Emergency,1
+2,Urgent,1
+3,Elective,2
+4,Newborn,2
+5,Not Available,4
+6,NULL,4
+7,Trauma Center,1
+8,Not Mapped,4
+,,
+discharge_disposition_id,description,Cluster
+1,Discharged to home,1
+2,Discharged/transferred to another short term hospital,4
+3,Discharged/transferred to SNF,3
+4,Discharged/transferred to ICF,3
+5,Discharged/transferred to another type of inpatient care institution,4
+6,Discharged/transferred to home with home health service,1
+7,Left AMA,1
+8,Discharged/transferred to home under care of Home IV provider,1
+9,Admitted as an inpatient to this hospital,3
+10,Neonate discharged to another hospital for neonatal aftercare,4
+11,Expired,2
+12,Still patient or expected to return for outpatient services,3
+13,Hospice / home,1
+14,Hospice / medical facility,1
+15,Discharged/transferred within this institution to Medicare approved swing bed,4
+16,Discharged/transferred/referred another institution for outpatient services,4
+17,Discharged/transferred/referred to this institution for outpatient services,4
+18,NULL,5
+19,"Expired at home. Medicaid only, hospice.",2
+20,"Expired in a medical facility. Medicaid only, hospice.",2
+21,"Expired, place unknown. Medicaid only, hospice.",2
+22,Discharged/transferred to another rehab fac including rehab units of a hospital .,4
+23,Discharged/transferred to a long term care hospital.,1
+24,Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare.,1
+25,Not Mapped,5
+26,Unknown/Invalid,5
+30,Discharged/transferred to another Type of Health Care Institution not Defined Elsewhere,4
+27,Discharged/transferred to a federal health care facility.,4
+28,Discharged/transferred/referred to a psychiatric hospital of psychiatric distinct part unit of a hospital,4
+29,Discharged/transferred to a Critical Access Hospital (CAH).,4
+,,
+admission_source_id,description,
+1, Physician Referral,1
+2,Clinic Referral,1
+3,HMO Referral,1
+4,Transfer from a hospital,2
+5, Transfer from a Skilled Nursing Facility (SNF),2
+6, Transfer from another health care facility,2
+7, Emergency Room,3
+8, Court/Law Enforcement,1
+9, Not Available,5
+10, Transfer from critial access hospital,3
+11,Normal Delivery,4
+12, Premature Delivery,4
+13, Sick Baby,4
+14, Extramural Birth,4
+15,Not Available,5
+17,NULL,5
+18, Transfer From Another Home Health Agency,2
+19,Readmission to Same Home Health Agency,1
+20, Not Mapped,5
+21,Unknown/Invalid,5
+22, Transfer from hospital inpt/same fac reslt in a sep claim,2
+23, Born inside this hospital,4
+24, Born outside this hospital,4
+25, Transfer from Ambulatory Surgery Center,1
+26,Transfer from Hospice,2
